@@ -1,4 +1,4 @@
-function getShippingCost(country) {
+const getShippingCost = (country) => {
     let price = 0;
     switch (country) {
         case "China":

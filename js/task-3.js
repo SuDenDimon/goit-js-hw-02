@@ -1,4 +1,4 @@
-function checkForSpam(message) {
+const checkForSpam = (message) => {
     message = message.toLowerCase();
    if (message.includes("spam") || message.includes("sale")) {
     return true;
